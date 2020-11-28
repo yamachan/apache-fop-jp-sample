@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Simple QR sample with JSP</title>
+  </head>
+  <body>
+
+<div class="container">
+    <h2>Simple Apache FOP sample with JSP</h2>
+    <form method="POST" action="/test02/pdfServlet">
+        <div class="form-group">
+            <label for="i_fname">Document format</label>
+            <input type="text" class="form-control" id="i_fname" name="i_fname" value="sample1">
+            <label for="i_fname">Document date</label>
+            <input type="text" class="form-control" id="i_fdate" name="i_fdate" value="2020/11/28">
+            <label for="i_body">Client code</label>
+            <input type="text" class="form-control" id="i_ccode" name="i_ccode" value="1">
+            <label for="i_body">Optional Body text</label>
+            <input type="text" class="form-control" id="i_body" name="i_body" value="Sample body text...">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
